@@ -24,7 +24,7 @@ class fuzzyNilai: #Membuat Class FuzzyNilai untuk program Menentukan nilai Akhir
         self.Quiz = ctrl.Antecedent(np.arange(0, 101, 1), 'Quiz')
         self.Uts = ctrl.Antecedent(np.arange(0, 101, 1), 'UTS')
         self.Uas = ctrl.Antecedent(np.arange(0, 101, 1), 'UAS')
-        # Variabloutput nilai dengan nama: Nilai_Akhir
+        # Varibel output nilai dengan nama: Nilai_Akhir
         self.NilaiAkhir = ctrl.Consequent(np.arange(0, 101, 1), 'Nilai_Akhir')
         
     def membership(self): 
